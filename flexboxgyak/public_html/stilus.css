@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+main, header,nav,article,aside,footer {
+    border: 1px solid gray;
+    padding: 10px;
+
+}
+main{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+body{
+    background-image: url('hatter.jpg');
+    color: white;
+
+}
+header{
+    flex: 0 0 100%;
+    order: 0;
+}
+footer{   
+    flex: 0 0 100%;
+    order: 4
+}
+article{
+    flex: 0 0 50%;
+    order: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+aside{   
+    flex: 0 0 25%;
+    order: 1;
+}
+*{
+    box-sizing: border-box;
+}
+#elso{
+    order: 1;
+}
+#masodik{
+    order: 3;
+}
+nav ul{
+    display: flex;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+
+}
+nav a {
+    text-decoration: none;
+
+}
+nav li{
+    list-style-type: none;
+    padding: 10px;
+}
+nav li:hover{
+    background-color: graytext;
+}
+article div img{
+    width: 100%;
+    
+
+}
+article div{
+    flex: 0 0 33.333%;
+}
+
+
+
